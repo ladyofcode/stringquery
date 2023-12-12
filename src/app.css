@@ -1,0 +1,19 @@
+@import '@fontsource-variable/cormorant';
+
+:root {
+    --color-bg-light: #f4eadd;
+    --color-fg-dark: #505050;
+}
+
+body {
+    font-family: 'Cormorant', Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--color-bg-light);
+    color: var(--color-fg-dark);
+}
+
+h1,
+h2,
+label,
+p {
+    color: var(--color-fg-dark);
+}
