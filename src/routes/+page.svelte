@@ -1,17 +1,37 @@
 <script>
 	import Song from '../lib/Song.svelte';
 	import '../app.css';
+
+	import { browser } from '$app/environment';
+
+	const genres = ["rock", "alternative", "pop", "punk", "soul", "reggae", "electronica", "dance", "metal", "classic rock", "country", "britpop"];
+
+	function saveForm(event) {
+		event.preventDefault();
+
+		const data = new FormData(event.target);
+		const value = Object.fromEntries(data.entries());
+
+		value.genres = data.getAll("genres");
+
+		console.log({ value });
+	}
+
+	if (browser) {
+		const form = document.querySelector('form');
+		form.addEventListener('submit', saveForm);
+	}
 </script>
 
 <main>
 	<h1>String Query</h1>
 
-	<div>
-		<button>Import</button>
-		<button>Export</button>
-	</div>
-
 	<form action="">
+		<div>
+			<button>Import</button>
+			<button type="submit">Export</button>
+		</div>
+
 		<label for="chords">Add chords</label>
 		<input type="search" id="chords" name="chords" />
 		<p>Added chords:</p>
@@ -19,22 +39,13 @@
 
 		<fieldset>
 			<legend>Genres</legend>
-			<div>
-				<label for="rock">Rock</label>
-				<input type="checkbox" value="rock" id="rock" name="genres" />
-			</div>
 
-			<div><label for="">Alternative</label><input type="checkbox" /></div>
-			<div><label for="">Pop</label><input type="checkbox" /></div>
-			<div><label for="">Punk</label><input type="checkbox" /></div>
-			<div><label for="">Soul</label><input type="checkbox" /></div>
-			<div><label for="">Reggae</label><input type="checkbox" /></div>
-			<div><label for="">Electronica</label><input type="checkbox" /></div>
-			<div><label for="">Dance</label><input type="checkbox" /></div>
-			<div><label for="">Metal</label><input type="checkbox" /></div>
-			<div><label for="">Classic rock</label><input type="checkbox" /></div>
-			<div><label for="">Country</label><input type="checkbox" /></div>
-			<div><label for="">Britpop</label><input type="checkbox" /></div>
+			{#each genres as genre}
+				<div>
+					<label for={genre}>{genre.charAt(0).toUpperCase() + genre.slice(1)}</label>
+					<input type="checkbox" id={genre} name="genres" value={genre} />
+				</div>
+			{/each}
 		</fieldset>
 
 		<input type="search" id="song-search" name="song-search" />
@@ -44,15 +55,13 @@
 </main>
 
 <style>
-
-    main {
-        width: 100%;
-        max-width: 800px;
-        margin: 0 auto;
-    }
+	main {
+		width: 100%;
+		max-width: 800px;
+		margin: 0 auto;
+	}
 	h1 {
 		text-align: center;
 		font-size: 4rem;
 	}
-
 </style>
