@@ -25,6 +25,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource-variable/cormorant": "^5.0.9"
+		"@fontsource-variable/cormorant": "^5.0.9",
+		"svelecte": "^3.17.2",
+		"svelte-dnd-action": "^0.9.38"
 	}
 }

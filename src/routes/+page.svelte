@@ -1,65 +1,18 @@
 <script>
-	import Song from '../lib/Song.svelte';
+	import { dndzone, overrideItemIdKeyNameBeforeInitialisingDndZones, setDebugMode} from 'svelte-dnd-action';
+	import Svelecte from 'svelecte';
+
 	import '../app.css';
 
 	import { browser } from '$app/environment';
+	import Song from '$lib/Song.svelte';
+	import options from '$lib/chords.js';
 
-	const chords = [
-		'G',
-		'Am',
-		'C',
-		'A',
-		'D',
-		'E',
-		'Bm',
-		'Em',
-		'G',
-		'F',
-		'B',
-		'F#',
-		'F#m',
-		'Bm7',
-		'D6',
-		'Dm',
-		'A#',
-		'Gm',
-		'BG',
-		'Bb',
-		'D#m',
-		'Cm',
-		'D#',
-		'Eb',
-		'Dm7',
-		'FAm',
-		'Cadd9',
-		'Csus2',
-		'Em7',
-		'Amaj7',
-		'B7',
-		'G#',
-		'E7',
-		'Dsus4',
-		'D7',
-		'G7',
-		'A7',
-		'D#7',
-		'Am7',
-		'C#',
-		'B5',
-		'C7',
-		'C#m',
-		'Asus4',
-		'Esus',
-		'D9',
-		'Fm',
-		'Gsus',
-		'F7',
-		'F6',
-		'D5',
-		'G6',
-		'Dsus2'
-	];
+	overrideItemIdKeyNameBeforeInitialisingDndZones('value');
+	setDebugMode(true);
 
+	let value = [options[3], options[7]];
+	
 	const genres = [
 		'rock',
 		'alternative',
@@ -97,17 +50,6 @@
 		a.click();
 	}
 
-	// Chord search
-	const chordFocus = () => {
-		const chordList = document.getElementById('chordList');
-		chordList.style.display = 'block';
-	};
-
-	const chordBlur = () => {
-		const chordList = document.getElementById('chordList');
-		chordList.style.display = 'none';
-	};
-
 	if (browser) {
 		// const chordList = document.getElementById('chordList');
 		// chordList.style.display = "none";
@@ -116,20 +58,6 @@
 		const exportButton = document.querySelector('#exportButton');
 		exportButton.addEventListener('click', saveForm);
 
-		document.getElementById('chordSearch').addEventListener('input', function (event) {
-			const searchTerm = event.target.value.toLowerCase();
-			const chordList = document.querySelectorAll('#chordList li');
-
-			chordList.forEach(function (item) {
-				const text = item.textContent.toLowerCase();
-
-				if (text.includes(searchTerm)) {
-					item.style.display = 'list-item';
-				} else {
-					item.style.display = 'none';
-				}
-			});
-		});
 	}
 </script>
 
@@ -143,22 +71,7 @@
 		</div>
 
 		<label for="chords">Add chords</label>
-		<input
-			on:focus={chordFocus}
-			on:blur={chordBlur}
-			type="search"
-			id="chordSearch"
-			name="chordSearch"
-			placeholder="Search chords..."
-		/>
-		<ul id="chordList">
-			{#each chords as chord}
-				<li>{chord}</li>
-			{/each}
-		</ul>
-		<p>Added chords:</p>
-		<!--Add pillboxes with a minus sign to show they can be deleted-->
-
+		<Svelecte {options} bind:value={value} multiple {dndzone} valueAsObject placeholder="Add chords..." />
 		<fieldset>
 			<legend>Genres</legend>
 
@@ -187,7 +100,7 @@
 		font-size: 4rem;
 	}
 
-	#chordList {
+	/* #chordList {
 		display: none;
-	}
+	} */
 </style>
