@@ -33,10 +33,11 @@
 
 		const data = new FormData(document.querySelector('form'));
 		const value = Object.fromEntries(data.entries());
+		value.chords = data.getAll('chords');
 		value.genres = data.getAll('genres');
 
 		let csvRows = [];
-		const headers = Object.keys(data);
+		const headers = Object.keys(value);
 		console.log('form: ', { headers });
 		csvRows.push(headers.join(','));
 		csvRows.push(Object.values(value).join(','));
@@ -50,13 +51,13 @@
 		a.click();
 	}
 
-	if (browser) {
-		// Use papaparse for the file
-		// const importButton = document.querySelector('#importButton');
-		// importButton.addEventListener('click', saveForm);
-		const exportButton = document.querySelector('#exportButton');
-		exportButton.addEventListener('click', saveForm);
-	}
+	// if (browser) {
+	// 	// Use papaparse for the file
+	// 	// const importButton = document.querySelector('#importButton');
+	// 	// importButton.addEventListener('click', saveForm);
+	// 	const exportButton = document.querySelector('#exportButton');
+	// 	exportButton.addEventListener('click', saveForm);
+	// }
 </script>
 
 <main>
@@ -65,11 +66,11 @@
 	<form action="">
 		<div>
 			<button id="importButton">Import</button>
-			<button id="exportButton" type="submit">Export</button>
+			<button id="exportButton" type="submit" on:click={saveForm}>Export</button>
 		</div>
 
 		<label for="chords">Add chords</label>
-		<Svelecte {options} bind:value={value} multiple {dndzone} valueAsObject placeholder="Add chords..." />
+		<Svelecte name="chords" {options} multiple {dndzone} valueAsObject placeholder="Add chords..." />
 		<fieldset>
 			<legend>Genres</legend>
 
@@ -81,6 +82,9 @@
 			{/each}
 		</fieldset>
 
+	</form>
+	
+	<form action="">
 		<input type="search" id="song-search" name="song-search" />
 	</form>
 
