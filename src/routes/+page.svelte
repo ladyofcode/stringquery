@@ -51,13 +51,11 @@
 	}
 
 	if (browser) {
-		// const chordList = document.getElementById('chordList');
-		// chordList.style.display = "none";
+		// Use papaparse for the file
 		// const importButton = document.querySelector('#importButton');
 		// importButton.addEventListener('click', saveForm);
 		const exportButton = document.querySelector('#exportButton');
 		exportButton.addEventListener('click', saveForm);
-
 	}
 </script>
 
@@ -99,8 +97,4 @@
 		text-align: center;
 		font-size: 4rem;
 	}
-
-	/* #chordList {
-		display: none;
-	} */
 </style>
