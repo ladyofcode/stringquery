@@ -1,6 +1,11 @@
 <script>
-	import { dndzone, overrideItemIdKeyNameBeforeInitialisingDndZones, setDebugMode} from 'svelte-dnd-action';
+	import {
+		dndzone,
+		overrideItemIdKeyNameBeforeInitialisingDndZones,
+		setDebugMode
+	} from 'svelte-dnd-action';
 	import Svelecte from 'svelecte';
+	import Papa from 'papaparse';
 
 	import '../app.css';
 
@@ -11,8 +16,6 @@
 	overrideItemIdKeyNameBeforeInitialisingDndZones('value');
 	setDebugMode(true);
 
-	let value = [options[3], options[7]];
-	
 	const genres = [
 		'rock',
 		'alternative',
@@ -51,13 +54,19 @@
 		a.click();
 	}
 
-	// if (browser) {
-	// 	// Use papaparse for the file
-	// 	// const importButton = document.querySelector('#importButton');
-	// 	// importButton.addEventListener('click', saveForm);
-	// 	const exportButton = document.querySelector('#exportButton');
-	// 	exportButton.addEventListener('click', saveForm);
-	// }
+	function loadForm() {
+		let fileInput = document.getElementById('importFile');
+		fileInput.click();
+
+		Papa.parse(fileInput.files[0], {
+			complete: function (result) {
+				console.log(result.data);
+			}
+		});
+
+		// check that the headers are correct; if, not, reject the file
+		// output a message that says the file is incorrect and cannot be loaded
+	}
 </script>
 
 <main>
@@ -65,12 +74,20 @@
 
 	<form action="">
 		<div>
-			<button id="importButton">Import</button>
+			<button id="importButton" on:click={loadForm}>Import</button>
+			<input type="file" id="importFile" accept=".csv" />
 			<button id="exportButton" type="submit" on:click={saveForm}>Export</button>
 		</div>
 
 		<label for="chords">Add chords</label>
-		<Svelecte name="chords" {options} multiple {dndzone} valueAsObject placeholder="Add chords..." />
+		<Svelecte
+			name="chords"
+			{options}
+			multiple
+			{dndzone}
+			valueAsObject
+			placeholder="Add chords..."
+		/>
 		<fieldset>
 			<legend>Genres</legend>
 
@@ -81,9 +98,8 @@
 				</div>
 			{/each}
 		</fieldset>
-
 	</form>
-	
+
 	<form action="">
 		<input type="search" id="song-search" name="song-search" />
 	</form>
@@ -100,5 +116,9 @@
 	h1 {
 		text-align: center;
 		font-size: 4rem;
+	}
+
+	#importFile {
+		display: none;
 	}
 </style>
