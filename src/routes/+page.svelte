@@ -9,12 +9,14 @@
 
 	import '../app.css';
 
-	import { browser } from '$app/environment';
 	import Song from '$lib/Song.svelte';
 	import options from '$lib/chords.js';
 
 	overrideItemIdKeyNameBeforeInitialisingDndZones('value');
-	setDebugMode(true);
+	// setDebugMode(true);
+
+	let value;
+	let chordSelection = [null];
 
 	const genres = [
 		'rock',
@@ -31,22 +33,33 @@
 		'britpop'
 	];
 
+	let genreSelection = [];
+
 	function saveForm(event) {
 		event.preventDefault();
 
-		const data = new FormData(document.querySelector('form'));
-		const value = Object.fromEntries(data.entries());
-		value.chords = data.getAll('chords');
-		value.genres = data.getAll('genres');
+		let length =
+			chordSelection.length > genreSelection.length ? chordSelection.length : genreSelection.length;
 
-		let csvRows = [];
-		const headers = Object.keys(value);
-		console.log('form: ', { headers });
-		csvRows.push(headers.join(','));
-		csvRows.push(Object.values(value).join(','));
-		csvRows.join('\n');
+		const data = [];
 
-		const blob = new Blob([csvRows], { type: 'text/csv' });
+		// Add headers manually
+		data.push(['chords, genres']);
+
+		let row = [];
+		for (let i = 0; i < length; i++) {
+			row = ['', ''];
+			row[0] = chordSelection[i] !== undefined ? JSON.stringify(chordSelection[i]) : '';
+			row[1] = genreSelection[i] !== undefined ? genreSelection[i] : '';
+			data.push(row);
+		}
+
+		const csv = Papa.unparse(data, {
+			columns: ['chords, genres'],
+			quoteChar: "'"
+		});
+
+		const blob = new Blob([csv], { type: 'text/csv' });
 		const url = window.URL.createObjectURL(blob);
 		const a = document.createElement('a');
 		a.setAttribute('href', url);
@@ -54,18 +67,43 @@
 		a.click();
 	}
 
-	function loadForm() {
-		let fileInput = document.getElementById('importFile');
-		fileInput.click();
+	function loadForm(event) {
+		// let fileInput = document.getElementById('importFile');
+		// fileInput.click();
 
-		Papa.parse(fileInput.files[0], {
+		let data;
+
+		Papa.parse(event.target.files[0], {
+			quoteChar: "'",
 			complete: function (result) {
-				console.log(result.data);
+				data = result.data;
+
+				if (data[0][0] === 'chords, genres') {
+					document.getElementById('warning').style.display = 'none';
+					parseData(data);
+				} else {
+					document.getElementById('warning').style.display = 'block';
+				}
 			}
 		});
+	}
 
-		// check that the headers are correct; if, not, reject the file
-		// output a message that says the file is incorrect and cannot be loaded
+	function parseData(data) {
+		chordSelection = [];
+		value = [];
+		genreSelection = [];
+		data.shift();
+
+		data.forEach((item) => {
+			if (item[0] !== '') {
+				value.push(JSON.parse(item[0]));
+				genreSelection.push(JSON.parse(item[0]));
+			}
+
+			if (item[1] !== '') {
+				genreSelection.push(item[1]);
+			}
+		});
 	}
 </script>
 
@@ -75,28 +113,41 @@
 	<form action="">
 		<div>
 			<button id="importButton" on:click={loadForm}>Import</button>
-			<input type="file" id="importFile" accept=".csv" />
+			<input type="file" id="importFile" on:change={loadForm} accept=".csv" />
+			<p id="warning">File cannot be loaded. Please choose another.</p>
 			<button id="exportButton" type="submit" on:click={saveForm}>Export</button>
 		</div>
 
 		<label for="chords">Add chords</label>
+
 		<Svelecte
-			name="chords"
 			{options}
+			name="chords"
+			bind:value
+			valueAsObject
+			bind:readSelection={chordSelection}
 			multiple
 			{dndzone}
-			valueAsObject
 			placeholder="Add chords..."
 		/>
+
 		<fieldset>
 			<legend>Genres</legend>
 
+			<!-- {#key genreSelection} -->
 			{#each genres as genre}
 				<div>
 					<label for={genre}>{genre.charAt(0).toUpperCase() + genre.slice(1)}</label>
-					<input type="checkbox" id={genre} name="genres" value={genre} />
+					<input
+						type="checkbox"
+						bind:group={genreSelection}
+						id={genre}
+						name="genres"
+						value={genre}
+					/>
 				</div>
 			{/each}
+			<!-- {/key} -->
 		</fieldset>
 	</form>
 
@@ -113,12 +164,17 @@
 		max-width: 800px;
 		margin: 0 auto;
 	}
+
 	h1 {
 		text-align: center;
 		font-size: 4rem;
 	}
 
-	#importFile {
+	#warning {
 		display: none;
 	}
+
+	/* #importFile {
+		display: none;
+	} */
 </style>
