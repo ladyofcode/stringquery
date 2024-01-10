@@ -9,7 +9,7 @@
 
 	import '../app.css';
 
-	import Song from '$lib/Song.svelte';
+	import SearchResults from '$lib/SearchResults.svelte';
 	import options from '$lib/chords.js';
 
 	overrideItemIdKeyNameBeforeInitialisingDndZones('value');
@@ -134,7 +134,6 @@
 		<fieldset>
 			<legend>Genres</legend>
 
-			<!-- {#key genreSelection} -->
 			{#each genres as genre}
 				<div>
 					<label for={genre}>{genre.charAt(0).toUpperCase() + genre.slice(1)}</label>
@@ -147,15 +146,10 @@
 					/>
 				</div>
 			{/each}
-			<!-- {/key} -->
 		</fieldset>
 	</form>
 
-	<form action="">
-		<input type="search" id="song-search" name="song-search" />
-	</form>
-
-	<Song />
+	<SearchResults />
 </main>
 
 <style>
