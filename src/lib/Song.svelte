@@ -1,7 +1,12 @@
+<script>
+    export let title, artist;
+</script>
+
+
 <div>
     <!-- Spotify preview embed -->
-    <h3>Song title</h3>
-    <p>Artist</p>
+    <h3>{title}</h3>
+    <p>{artist}</p>
 
     <div>
         <button>YouTube</button>

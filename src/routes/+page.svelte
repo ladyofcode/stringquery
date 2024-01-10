@@ -149,7 +149,9 @@
 		</fieldset>
 	</form>
 
-	<SearchResults />
+	{#key chordSelection}
+		<SearchResults filteredChords={chordSelection} />
+	{/key}
 </main>
 
 <style>
