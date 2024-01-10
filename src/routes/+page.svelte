@@ -1,4 +1,9 @@
 <script>
+	import { get, writable } from 'svelte/store';
+	import { browser } from '$app/environment';
+
+	import { persisted } from 'svelte-persisted-store';
+
 	import {
 		dndzone,
 		overrideItemIdKeyNameBeforeInitialisingDndZones,
@@ -35,6 +40,27 @@
 
 	let genreSelection = [];
 
+	export let storedChords = persisted('storedChords', chordSelection);
+	export let storedGenres = persisted('storedGenres', genreSelection);
+
+	function storeChords (event) {
+
+		let isInArray = genreSelection.includes(event.target.value);
+
+		if (event.target.checked == true && !isInArray) {
+			genreSelection.push(event.target.value);
+		}
+
+		if (event.target.checked == false && isInArray) {
+			genreSelection = genreSelection.filter(function(value) {
+				return value !== event.target.value;
+			})
+		} 
+
+		console.log(genreSelection)
+		
+	}
+
 	function saveForm(event) {
 		event.preventDefault();
 
@@ -67,10 +93,12 @@
 		a.click();
 	}
 
-	function loadForm(event) {
-		// let fileInput = document.getElementById('importFile');
-		// fileInput.click();
+	function clickBrowse() {
+		let fileInput = document.getElementById('importFile');
+		fileInput.click();
+	}
 
+	function loadForm(event) {
 		let data;
 
 		Papa.parse(event.target.files[0], {
@@ -112,7 +140,7 @@
 
 	<form action="">
 		<div>
-			<button id="importButton" on:click={loadForm}>Import</button>
+			<button id="importButton" on:click={clickBrowse}>Import</button>
 			<input type="file" id="importFile" on:change={loadForm} accept=".csv" />
 			<p id="warning">File cannot be loaded. Please choose another.</p>
 			<button id="exportButton" type="submit" on:click={saveForm}>Export</button>
@@ -123,9 +151,8 @@
 		<Svelecte
 			{options}
 			name="chords"
-			bind:value
-			valueAsObject
 			bind:readSelection={chordSelection}
+			bind:value={$storedChords}
 			multiple
 			{dndzone}
 			placeholder="Add chords..."
@@ -139,7 +166,8 @@
 					<label for={genre}>{genre.charAt(0).toUpperCase() + genre.slice(1)}</label>
 					<input
 						type="checkbox"
-						bind:group={genreSelection}
+						bind:group={$storedGenres}
+						on:change={storeChords}
 						id={genre}
 						name="genres"
 						value={genre}
@@ -170,7 +198,7 @@
 		display: none;
 	}
 
-	/* #importFile {
+	#importFile {
 		display: none;
-	} */
+	}
 </style>

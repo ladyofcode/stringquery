@@ -5,9 +5,9 @@
 
 	import Song from '$lib/Song.svelte';
 
-	const chordList = filteredChords.map((chord) => chord.value);
+	// const chordList = filteredChords.map((chord) => chord.value);
 	
-	console.log("chords ", chordList)
+	// console.log("chords ", chordList)
 	
 </script>
 
