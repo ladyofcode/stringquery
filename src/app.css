@@ -2,15 +2,21 @@
 
 :root {
     --color-bg-light: #f4eadd;
-    --color-fg-dark: #505050;
+    --color-fg-dark: #38322f;
+        --color-text-light: #f5f3e7;
 }
 
 body {
     font-family: 'Cormorant', Georgia, 'Times New Roman', Times, serif;
     background-color: var(--color-bg-light);
+    background-image: url(lib/jefferson-santos-fCEJGBzAkrU-unsplash.jpg);
     color: var(--color-fg-dark);
 }
 
+body,
+button {
+    font-family: 'Cormorant', Georgia, 'Times New Roman', Times, serif;
+}
 h1,
 h2,
 label,
