@@ -56,7 +56,7 @@
 			});
 		}
 
-		console.log(genreSelection);
+		// console.log(genreSelection);
 	}
 
 	function saveForm(event) {
