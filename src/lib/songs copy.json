@@ -1,0 +1,2330 @@
+[
+    {
+    "title": "What's Up",
+    "artist": "4 Non Blondes",
+    "chords": "G Am C",
+    "genres": "Pop"
+},
+{
+    "title": "I Have A Dream",
+    "artist": "Abba",
+    "chords": "A D E",
+    "genres": "Pop"
+},
+{
+    "title": "The Winner Takes It All",
+    "artist": "Abba",
+    "chords": "A Bm D Em",
+    "genres": "Pop"
+},
+{
+    "title": "T.N.T",
+    "artist": "AC/DC",
+    "chords": "E G A",
+    "genres": "Classic Rock"
+},
+{
+    "title": "You Shook Me All Night Long",
+    "artist": "AC/DC",
+    "chords": "G C D",
+    "genres": "Classic Rock"
+},
+{
+    "title": "It's a Long Way to the Top",
+    "artist": "AC/DC",
+    "chords": "A G D",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Back In Black",
+    "artist": "AC/DC",
+    "chords": "E D A",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Rolling In The Deep",
+    "artist": "Adele",
+    "chords": "Am E Em F G",
+    "genres": "Pop"
+},
+{
+    "title": "Hello",
+    "artist": "Adele",
+    "chords": "Bm C D Em G",
+    "genres": "Pop"
+},
+{
+    "title": "Ironic",
+    "artist": "Alanis Morissette",
+    "chords": "C D Em F G",
+    "genres": "Alternative"
+},
+{
+    "title": "Hand In My Pocket",
+    "artist": "Alanis Morissette",
+    "chords": "C D F G",
+    "genres": "Alternative"
+},
+{
+    "title": "You Oughta Know",
+    "artist": "Alanis Morissette",
+    "chords": "A B E F# F#m",
+    "genres": "Alternative"
+},
+{
+    "title": "Rooster",
+    "artist": "Alice In Chains",
+    "chords": "A C E G",
+    "genres": "Rock"
+},
+{
+    "title": "Fallin'",
+    "artist": "Alicia Keys",
+    "chords": "Em Bm7",
+    "genres": "Pop"
+},
+{
+    "title": "When You Say Nothing At All",
+    "artist": "Alison Krauss",
+    "chords": "G D C",
+    "genres": "Alternative"
+},
+{
+    "title": "A Horse With No Name",
+    "artist": "America",
+    "chords": "Em D6",
+    "genres": "Rock"
+},
+{
+    "title": "Best Day of My Life",
+    "artist": "American Authors",
+    "chords": "G D",
+    "genres": "Rock"
+},
+{
+    "title": "This Is The Life",
+    "artist": "Amy Macdonald",
+    "chords": "Am C Em F",
+    "genres": "Pop"
+},
+{
+    "title": "Valerie",
+    "artist": "Amy Winehouse",
+    "chords": "C Dm Em F G",
+    "genres": "Soul"
+},
+{
+    "title": "Back to Black",
+    "artist": "Amy Winehouse",
+    "chords": "A A# Dm F Gm",
+    "genres": "Soul"
+},
+{
+    "title": "When I'm Gone (Cups)",
+    "artist": "Anna Kendrick",
+    "chords": "C F Am G Dm",
+    "genres": "Pop"
+},
+{
+    "title": 505,
+    "artist": "Arctic Monkeys",
+    "chords": "Am Bm",
+    "genres": "Indie, Rock"
+},
+{
+    "title": "Do I Wanna Know",
+    "artist": "Arctic Monkeys",
+    "chords": "Am B C Em",
+    "genres": "Indie, Rock"
+},
+{
+    "title": "I Wanna Be Yours",
+    "artist": "Arctic Monkeys",
+    "chords": "Am Dm Em F G",
+    "genres": "Indie, Rock"
+},
+{
+    "title": "Doesn�t Remind Me",
+    "artist": "Audioslave",
+    "chords": "E A D Dm C Am G",
+    "genres": "Rock"
+},
+{
+    "title": "This Means War",
+    "artist": "Avenged Sevenfold",
+    "chords": "Em C Am D B G",
+    "genres": "Metal"
+},
+{
+    "title": "Wake Me Up",
+    "artist": "Avicii",
+    "chords": "Am C E F G",
+    "genres": "Electronica, Dance"
+},
+{
+    "title": "Complicated",
+    "artist": "Avril Lavigne",
+    "chords": "Dm Bb F C Gm",
+    "genres": "Pop, Rock"
+},
+{
+    "title": "I Want It That Way",
+    "artist": "Backstreet Boys",
+    "chords": "Em G C D",
+    "genres": "Pop"
+},
+{
+    "title": "Pompeii",
+    "artist": "Bastille",
+    "chords": "C D Em G",
+    "genres": "Rock"
+},
+{
+    "title": "Staying Alive",
+    "artist": "Bee Gees",
+    "chords": "A Bm D Em",
+    "genres": "Pop"
+},
+{
+    "title": "Stand By Me",
+    "artist": "Ben E King",
+    "chords": "A F#m D E",
+    "genres": "Soul"
+},
+{
+    "title": "Halo",
+    "artist": "Beyonce",
+    "chords": "Am C Em G",
+    "genres": "Pop"
+},
+{
+    "title": "If I Were A Boy",
+    "artist": "Beyonce",
+    "chords": "A# C Dm F",
+    "genres": "Pop"
+},
+{
+    "title": "Rock Around The Clock",
+    "artist": "Bill Haley And His Comets",
+    "chords": "A D E",
+    "genres": "Rock"
+},
+{
+    "title": "Ain�t No Sunshine",
+    "artist": "Bill Withers",
+    "chords": "Am Em G Dm",
+    "genres": "Soul"
+},
+{
+    "title": "Lean On Me",
+    "artist": "Bill Withers",
+    "chords": "A D E",
+    "genres": "Soul"
+},
+{
+    "title": "Blue Moon",
+    "artist": "Billie Holiday",
+    "chords": "C Am F G Dm",
+    "genres": "Pop"
+},
+{
+    "title": "Blue Moon",
+    "artist": "Billie Holiday",
+    "chords": "G Em C D",
+    "genres": "Pop"
+},
+{
+    "title": "Good Directions",
+    "artist": "Billy Currington",
+    "chords": "F Am Bb C Dm E",
+    "genres": "Pop"
+},
+{
+    "title": "Achy Breaky Heart",
+    "artist": "Billy Ray Cyrus",
+    "chords": "G C",
+    "genres": "Pop"
+},
+{
+    "title": "No Rain",
+    "artist": "Blind Melon",
+    "chords": "A D E G",
+    "genres": "Pop"
+},
+{
+    "title": "All The Small Things",
+    "artist": "Blink-182",
+    "chords": "C F G",
+    "genres": "Alternative, Rock, Punk"
+},
+{
+    "title": "What's My Age Again",
+    "artist": "Blink-182",
+    "chords": "A# C D#m Dm F",
+    "genres": "Alternative, Rock, Punk"
+},
+{
+    "title": "The Tide is High",
+    "artist": "Blondie",
+    "chords": "A D E",
+    "genres": "Pop"
+},
+{
+    "title": "She's So High",
+    "artist": "Blur",
+    "chords": "A C D Em",
+    "genres": "Britpop"
+},
+{
+    "title": "Girls and Boys",
+    "artist": "Blur",
+    "chords": "Cm D# F F# Gm",
+    "genres": "Britpop"
+},
+{
+    "title": "Blowin' In The Wind",
+    "artist": "Bob Dylan",
+    "chords": "G C D",
+    "genres": "Folk"
+},
+{
+    "title": "Mr. Tambourine Man",
+    "artist": "Bob Dylan",
+    "chords": "D G A",
+    "genres": "Folk"
+},
+{
+    "title": "Knockin' On Heaven's Door",
+    "artist": "Bob Dylan",
+    "chords": "G D C Am",
+    "genres": "Folk"
+},
+{
+    "title": "I Shot The Sheriff",
+    "artist": "Bob Marley",
+    "chords": "Gm Cm Eb Dm7",
+    "genres": "Reggae"
+},
+{
+    "title": "Three Little Birds",
+    "artist": "Bob Marley",
+    "chords": "A D E",
+    "genres": "Reggae"
+},
+{
+    "title": "No Woman No Cry",
+    "artist": "Bob Marley",
+    "chords": "C Am F",
+    "genres": "Reggae"
+},
+{
+    "title": "Three Little Birds",
+    "artist": "Bob Marley",
+    "chords": "A D E",
+    "genres": "Reggae"
+},
+{
+    "title": "No Woman No Cry",
+    "artist": "Bob Marley",
+    "chords": "C Am F",
+    "genres": "Reggae"
+},
+{
+    "title": "Redemption Song",
+    "artist": "Bob Marley",
+    "chords": "G Em C Am",
+    "genres": "Reggae"
+},
+{
+    "title": "Three Little Birds",
+    "artist": "Bob Marley",
+    "chords": "A D E",
+    "genres": "Reggae"
+},
+{
+    "title": "Wanted Dead Or Alive",
+    "artist": "Bon Jovi",
+    "chords": "C D F G",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Whiskey Lullaby",
+    "artist": "Brad Paisley",
+    "chords": "D G Bm A",
+    "genres": "Country"
+},
+{
+    "title": "Bottoms Up",
+    "artist": "Brantley Gilbert",
+    "chords": "Em C D",
+    "genres": "Country"
+},
+{
+    "title": "Nebraska",
+    "artist": "Bruce Springsteen",
+    "chords": "A D G",
+    "genres": "Rock"
+},
+{
+    "title": "Just the Way Your Are",
+    "artist": "Bruno Mars",
+    "chords": "D Bm G",
+    "genres": "Pop"
+},
+{
+    "title": "The Lazy Song",
+    "artist": "Bruno Mars",
+    "chords": "G C D",
+    "genres": "Pop"
+},
+{
+    "title": "Count On Me",
+    "artist": "Bruno Mars",
+    "chords": "C Em Am G F",
+    "genres": "Pop"
+},
+{
+    "title": "Marry You",
+    "artist": "Bruno Mars",
+    "chords": "D Em G",
+    "genres": "Pop"
+},
+{
+    "title": "Summer Of 69",
+    "artist": "Bryan Adams",
+    "chords": "D A Bm G F Bb C",
+    "genres": "Rock"
+},
+{
+    "title": "Call Me Maybe",
+    "artist": "Carley Rae Jepsen",
+    "chords": "C D Em G",
+    "genres": "Pop"
+},
+{
+    "title": "Before He Cheats",
+    "artist": "Carrie Underwood",
+    "chords": "Em D C B A G",
+    "genres": "Pop"
+},
+{
+    "title": "Closer",
+    "artist": "Chain Smokers",
+    "chords": "Cadd9 D Em",
+    "genres": "Pop"
+},
+{
+    "title": "Wicked Game",
+    "artist": "Chris Isaak",
+    "chords": "Bm A E",
+    "genres": "Rock"
+},
+{
+    "title": "Tennessee Whiskey",
+    "artist": "Chris Stapleton",
+    "chords": "D A Bm D E",
+    "genres": "Country"
+},
+{
+    "title": "Broken Halos",
+    "artist": "Chris Stapleton",
+    "chords": "G Csus2 Em7 Bm C",
+    "genres": "Country"
+},
+{
+    "title": "Say Something",
+    "artist": "Christina Aguilera",
+    "chords": "Am C Em F G",
+    "genres": "Pop"
+},
+{
+    "title": "A Thousand Years",
+    "artist": "Christina Perri",
+    "chords": "Am C D Em G",
+    "genres": "Pop"
+},
+{
+    "title": "Johnny B Goode",
+    "artist": "Chuck Berry",
+    "chords": "A D E",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Bubbly",
+    "artist": "Colbie Caillat",
+    "chords": "A Amaj7 D",
+    "genres": "Country"
+},
+{
+    "title": "Viva La Vida",
+    "artist": "Coldplay",
+    "chords": "G D C Em Bm",
+    "genres": "Rock"
+},
+{
+    "title": "Yellow",
+    "artist": "Coldplay",
+    "chords": "B E F# F#m",
+    "genres": "Rock"
+},
+{
+    "title": "Down on the Corner",
+    "artist": "Creedence Clearwater Revival",
+    "chords": "C G F",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Have You Ever Seen The Rain",
+    "artist": "Creedence Clearwater Revival",
+    "chords": "C G F Am",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Bad Moon Rising",
+    "artist": "Creedence Clearwater Revival",
+    "chords": "A D G",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Down on the Corner",
+    "artist": "Creedence Clearwater Revival",
+    "chords": "C G F",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Have You Ever Seen The Rain",
+    "artist": "Creedence Clearwater Revival",
+    "chords": "C G FAm",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Who'll Stop the Rain",
+    "artist": "Creedence Clearwater Revival",
+    "chords": "G C D Em Am",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Bad Moon Rising",
+    "artist": "Creedence Clearwater Revival",
+    "chords": "D A G",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Girls Just Want To Have Fun",
+    "artist": "Cyndi Lauper",
+    "chords": "F Dm Bb C Dm",
+    "genres": "Pop"
+},
+{
+    "title": "Get Lucky",
+    "artist": "Daft Punk",
+    "chords": "Am C D Em",
+    "genres": "Pop"
+},
+{
+    "title": "Wagon Wheel",
+    "artist": "Darius Rucker",
+    "chords": "G D Em C",
+    "genres": "Country"
+},
+{
+    "title": "Heroes",
+    "artist": "David Bowie",
+    "chords": "Am C D Em G",
+    "genres": "Pop, Rock, Electronica"
+},
+{
+    "title": "Rebel Rebel",
+    "artist": "David Bowie",
+    "chords": "A Bm D E",
+    "genres": "Pop, Rock, Electronica"
+},
+{
+    "title": "Titanium",
+    "artist": "David Guetta",
+    "chords": "Am C Em F G",
+    "genres": "Electronica, Dance"
+},
+{
+    "title": "Breakfast at Tiffany's",
+    "artist": "Deep Blue Something",
+    "chords": "D A G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Let It Go",
+    "artist": "Demi Lovato",
+    "chords": "A C D Em G",
+    "genres": "Pop"
+},
+{
+    "title": "Walk Of Life",
+    "artist": "Dire Straits",
+    "chords": "E B A B7",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Jolene",
+    "artist": "Dolly Parton",
+    "chords": "Am C Em G",
+    "genres": "Pop"
+},
+{
+    "title": "9 To 5",
+    "artist": "Dolly Parton",
+    "chords": "A D E G",
+    "genres": "Pop"
+},
+{
+    "title": "American Pie",
+    "artist": "Don Mclean",
+    "chords": "G D C Em",
+    "genres": "Country"
+},
+{
+    "title": "Vincent",
+    "artist": "Don McLean",
+    "chords": "G C Am D Em",
+    "genres": "Country"
+},
+{
+    "title": "Mellow Yellow",
+    "artist": "Donovan",
+    "chords": "D G A",
+    "genres": "Pop"
+},
+{
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "chords": "Am Em Dm",
+    "genres": "Pop"
+},
+{
+    "title": "Mercy",
+    "artist": "Duffy",
+    "chords": "C D F G",
+    "genres": "Pop"
+},
+{
+    "title": "Guitars, Cadillacs",
+    "artist": "Dwight Yoakam",
+    "chords": "A E F#m G#",
+    "genres": "Country"
+},
+{
+    "title": "Save Tonight",
+    "artist": "Eagle Eye Cherry",
+    "chords": "Am C F G",
+    "genres": "Rock"
+},
+{
+    "title": "Peaceful Easy Feeling",
+    "artist": "Eagles",
+    "chords": "G C D Am",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Seven Bridges Road",
+    "artist": "Eagles",
+    "chords": "D C G",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Hotel California",
+    "artist": "Eagles",
+    "chords": "Am E7 G D F",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Peaceful Easy Feeling",
+    "artist": "Eagles",
+    "chords": "G D A Em",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Seven Bridges Road",
+    "artist": "Eagles",
+    "chords": "D C G",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Take It Easy",
+    "artist": "Eagles",
+    "chords": "G C D Em Am",
+    "genres": "Classic Rock"
+},
+{
+    "title": "I Only Want You",
+    "artist": "Eagles of Death Metal",
+    "chords": "Am C",
+    "genres": "Metal"
+},
+{
+    "title": "Perfect",
+    "artist": "Ed Sheeran",
+    "chords": "G Em C D F# G B Dsus4",
+    "genres": "Pop"
+},
+{
+    "title": "Thinking Out Loud",
+    "artist": "Ed Sheeran",
+    "chords": "C E F G Dm Am",
+    "genres": "Pop"
+},
+{
+    "title": "Perfect",
+    "artist": "Ed Sheeran",
+    "chords": "G C D Em",
+    "genres": "Pop"
+},
+{
+    "title": "Photograph",
+    "artist": "Ed Sheeran",
+    "chords": "Am C F G",
+    "genres": "Pop"
+},
+{
+    "title": "Galway Girl",
+    "artist": "Ed Sheeran",
+    "chords": "Am C D Em G",
+    "genres": "Pop"
+},
+{
+    "title": "Shape of You",
+    "artist": "Ed Sheeran",
+    "chords": "Am Dm F G",
+    "genres": "Pop"
+},
+{
+    "title": "Give Me Love",
+    "artist": "Ed Sheeran",
+    "chords": "Am C Dm F G",
+    "genres": "Pop"
+},
+{
+    "title": "Two Tickets To Paradise",
+    "artist": "Eddie Money",
+    "chords": "G A D",
+    "genres": "Rock"
+},
+{
+    "title": "It Hurts Me Too",
+    "artist": "Elmore James",
+    "chords": "D G A D7 Gm G7 A7 D#7",
+    "genres": "Pop"
+},
+{
+    "title": "Can You Feel The Love Tonight",
+    "artist": "Elton John",
+    "chords": "C G Em Am7 D",
+    "genres": "Pop"
+},
+{
+    "title": "That�s All Right Mama",
+    "artist": "Elvis Presley",
+    "chords": "A A7 D E7 E",
+    "genres": "Blues"
+},
+{
+    "title": "Can�t Help Falling In Love",
+    "artist": "Elvis Presley",
+    "chords": "C G Am F Em B A Dm F#m Bm C#",
+    "genres": "Blues"
+},
+{
+    "title": "Hound Dog",
+    "artist": "Elvis Presley",
+    "chords": "A DE",
+    "genres": "Blues"
+},
+{
+    "title": "Lucky Man",
+    "artist": "Emerson Lake and Palmer",
+    "chords": "Am D G",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Wonderful Tonight",
+    "artist": "Eric Clapton",
+    "chords": "G D F# C D Em",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Nobody Knows You",
+    "artist": "Eric Clapton",
+    "chords": "C E7 A7 Dm F",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Wonderful Tonight",
+    "artist": "Eric Clapton",
+    "chords": "G D C Em",
+    "genres": "Classic Rock"
+},
+{
+    "title": "American Boy",
+    "artist": "Estelle",
+    "chords": "Am C D E",
+    "genres": "Pop"
+},
+{
+    "title": "Love Is A Stranger",
+    "artist": "Eurythmics",
+    "chords": "C F",
+    "genres": "Pop"
+},
+{
+    "title": "Lithium",
+    "artist": "Evanescence",
+    "chords": "Am Dm E F G",
+    "genres": "Metal"
+},
+{
+    "title": "Dreams",
+    "artist": "Fleetwood Mac",
+    "chords": "F G Am",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Whistle",
+    "artist": "Flo Rida",
+    "chords": "Am C F G",
+    "genres": "Pop"
+},
+{
+    "title": "Shake It Out",
+    "artist": "Florence and the Machine",
+    "chords": "A# C Dm F Gm",
+    "genres": "Alternative"
+},
+{
+    "title": "Times Like These",
+    "artist": "Foo Fighters",
+    "chords": "D Am Am7 C Em Em7 Cadd9 Dsus4",
+    "genres": "Rock, Alternative"
+},
+{
+    "title": "Next Year",
+    "artist": "Foo Fighters",
+    "chords": "A C D G",
+    "genres": "Rock, Alternative"
+},
+{
+    "title": "Pumped Up Kicks",
+    "artist": "Foster The People",
+    "chords": "A D Em G",
+    "genres": "Pop"
+},
+{
+    "title": "All Right Now",
+    "artist": "Free",
+    "chords": "A D G",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Sweet About Me",
+    "artist": "Gabriella Cilmi",
+    "chords": "Am C G",
+    "genres": "Pop"
+},
+{
+    "title": "The Dance",
+    "artist": "Garth Brooks",
+    "chords": "G D C Em",
+    "genres": "Rock"
+},
+{
+    "title": "Mad World",
+    "artist": "Gary Jules",
+    "chords": "A D Em G",
+    "genres": "Alternative"
+},
+{
+    "title": "Crazy",
+    "artist": "Gnarls Barkley",
+    "chords": "Am C E F",
+    "genres": "Pop"
+},
+{
+    "title": "Somebody That I Used To Know",
+    "artist": "Gotye",
+    "chords": "A# C Dm",
+    "genres": "Pop"
+},
+{
+    "title": "Time Of Your Life",
+    "artist": "Green Day",
+    "chords": "G Cadd9 D Em C",
+    "genres": "Rock"
+},
+{
+    "title": "Good Riddance Time of Your Life",
+    "artist": "Green Day",
+    "chords": "G C D Em",
+    "genres": "Rock"
+},
+{
+    "title": "Boulevard of Broken Dreams",
+    "artist": "Green Day",
+    "chords": "Em G D A C B5",
+    "genres": "Rock"
+},
+{
+    "title": "Sweet Child O' Mine",
+    "artist": "Guns N Roses",
+    "chords": "D C G A",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Patience",
+    "artist": "Guns N Roses",
+    "chords": "A C D Em G",
+    "genres": "Classic Rock"
+},
+{
+    "title": "As It Was",
+    "artist": "Harry Styles",
+    "chords": "D B  E A",
+    "genres": "Pop"
+},
+{
+    "title": "Sign of the Times",
+    "artist": "Harry Styles",
+    "chords": "F Dm C C7 Bb",
+    "genres": "Pop"
+},
+{
+    "title": "The Reason",
+    "artist": "Hoobastank",
+    "chords": "A B C#m D E",
+    "genres": "Pop"
+},
+{
+    "title": "The Passenger",
+    "artist": "Iggy Pop",
+    "chords": "Am C E F G",
+    "genres": "Rock"
+},
+{
+    "title": "Demons",
+    "artist": "Imagine Dragons",
+    "chords": "C G Am F",
+    "genres": "Pop, Rock"
+},
+{
+    "title": "Demons",
+    "artist": "Imagine Dragons",
+    "chords": "C G Am F",
+    "genres": "Pop, Rock"
+},
+{
+    "title": "Radioactive",
+    "artist": "Imagine Dragons",
+    "chords": "Am C G D",
+    "genres": "Pop, Rock"
+},
+{
+    "title": "Demons",
+    "artist": "Imagine Dragons",
+    "chords": "Am C F G",
+    "genres": "Pop, Rock"
+},
+{
+    "title": "Drive",
+    "artist": "Incubus",
+    "chords": "A C D Em",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Drunken Sailor",
+    "artist": "Irish Rovers",
+    "chords": "Am G",
+    "genres": "Folk"
+},
+{
+    "title": "I Got You",
+    "artist": "Jack Johnson",
+    "chords": "A C D Em G",
+    "genres": "Rock"
+},
+{
+    "title": "Say You Won't Let Go",
+    "artist": "James Arthur",
+    "chords": "C D Em G",
+    "genres": "Pop"
+},
+{
+    "title": "Hold Back The River",
+    "artist": "James Bay",
+    "chords": "A# C Dm F Gm",
+    "genres": "Pop"
+},
+{
+    "title": "You�re Beautiful",
+    "artist": "James Blunt",
+    "chords": "G F# Em C D",
+    "genres": "Pop"
+},
+{
+    "title": "Mockingbird",
+    "artist": "James Taylor",
+    "chords": "A D G A7 E B B7",
+    "genres": "Rock"
+},
+{
+    "title": "Jane Says",
+    "artist": "Janes Addiction",
+    "chords": "A G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Me and Bobby McGee",
+    "artist": "Janis Joplin",
+    "chords": "G G7 C D7",
+    "genres": "Pop"
+},
+{
+    "title": "I'm Yours",
+    "artist": "Jason Mraz",
+    "chords": "G D Em C",
+    "genres": "Pop"
+},
+{
+    "title": "Lucky",
+    "artist": "Jason Mraz",
+    "chords": "C Am Dm G",
+    "genres": "Pop"
+},
+{
+    "title": "Hallelujah",
+    "artist": "Jeff Buckley",
+    "chords": "C Am F G E7",
+    "genres": "Alternative"
+},
+{
+    "title": "Great Balls of Fire",
+    "artist": "Jerry Lee Lewis",
+    "chords": "G C D",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Price Tag",
+    "artist": "Jessie J",
+    "chords": "A# Am Dm F",
+    "genres": "Pop"
+},
+{
+    "title": "Hey Joe",
+    "artist": "Jimi Hendrix",
+    "chords": "C G D A E",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Margaritaville",
+    "artist": "Jimmy Buffet",
+    "chords": "D G A D7",
+    "genres": "Country"
+},
+{
+    "title": "The Middle",
+    "artist": "Jimmy Eat World",
+    "chords": "A D G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Take Me Home Country Roads",
+    "artist": "John Denver",
+    "chords": "G D Em C F# F D7",
+    "genres": "Country"
+},
+{
+    "title": "Leaving on a Jet Plane",
+    "artist": "John Denver",
+    "chords": "G C D",
+    "genres": "Country"
+},
+{
+    "title": "Centerfield",
+    "artist": "John Fogerty",
+    "chords": "G C Em D Am",
+    "genres": "Country"
+},
+{
+    "title": "All Of Me",
+    "artist": "John Legend",
+    "chords": "Am C D Em G",
+    "genres": "Pop"
+},
+{
+    "title": "Imagine",
+    "artist": "John Lennon",
+    "chords": "C F Cadd9 Am E Dm7 G",
+    "genres": "Pop"
+},
+{
+    "title": "Your Body Is a Wonderland",
+    "artist": "John Mayer",
+    "chords": "D Asus4 G Em F#m Bm",
+    "genres": "Rock"
+},
+{
+    "title": "In Spite of Ourselves",
+    "artist": "John Prine",
+    "chords": "C F G",
+    "genres": "Country"
+},
+{
+    "title": "It's A Big Old Goofy World",
+    "artist": "John Prine",
+    "chords": "G C D",
+    "genres": "Country"
+},
+{
+    "title": "I Walk The Line",
+    "artist": "Johnny Cash",
+    "chords": "A D E B7 G",
+    "genres": "Country"
+},
+{
+    "title": "Ring of Fire",
+    "artist": "Johnny Cash",
+    "chords": "G C D",
+    "genres": "Country"
+},
+{
+    "title": "Sunday Morning Coming Down",
+    "artist": "Johnny Cash",
+    "chords": "E A B7 C#m Esus",
+    "genres": "Country"
+},
+{
+    "title": "Folsom Prison Blues",
+    "artist": "Johnny Cash",
+    "chords": "E A B7",
+    "genres": "Country"
+},
+{
+    "title": "Ring of Fire",
+    "artist": "Johnny Cash",
+    "chords": "G C D",
+    "genres": "Country"
+},
+{
+    "title": "You Are My Sunshine",
+    "artist": "Johnny Cash",
+    "chords": "A D E",
+    "genres": "Country"
+},
+{
+    "title": "Folsom Prison Blues",
+    "artist": "Johnny Cash",
+    "chords": "E A B7",
+    "genres": "Country"
+},
+{
+    "title": "Hurt",
+    "artist": "Johnny Cash",
+    "chords": "Am C D F",
+    "genres": "Country"
+},
+{
+    "title": "You Are My Sunshine",
+    "artist": "Johnny Cash",
+    "chords": "A D E",
+    "genres": "Country"
+},
+{
+    "title": "Don't Stop Believin'",
+    "artist": "Journey",
+    "chords": "C D Em G",
+    "genres": "Pop, Rock"
+},
+{
+    "title": "Over The Rainbow",
+    "artist": "Judy Garland",
+    "chords": "G Em Bm C",
+    "genres": "Pop"
+},
+{
+    "title": "Angel of the Morning",
+    "artist": "Juice Newton",
+    "chords": "G C D Am",
+    "genres": "Pop"
+},
+{
+    "title": "Love Yourself",
+    "artist": "Justin Bieber",
+    "chords": "Am C F G",
+    "genres": "Pop"
+},
+{
+    "title": "What Goes Around",
+    "artist": "Justin Timberlake",
+    "chords": "Am C D G",
+    "genres": "Pop"
+},
+{
+    "title": "Dust in the Wind",
+    "artist": "Kansas",
+    "chords": "C G Am Dm D",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Firework",
+    "artist": "Katy Perry",
+    "chords": "Am C Em G",
+    "genres": "Pop"
+},
+{
+    "title": "Hot And Cold",
+    "artist": "Katy Perry",
+    "chords": "Am C D Em G",
+    "genres": "Pop"
+},
+{
+    "title": "Breakaway",
+    "artist": "Kelly Clarkson",
+    "chords": "Am G F C D",
+    "genres": "Pop"
+},
+{
+    "title": "The Gambler",
+    "artist": "Kenny Rogers",
+    "chords": "D G A",
+    "genres": "Country"
+},
+{
+    "title": "Tik Tok",
+    "artist": "Kesha",
+    "chords": "A# C Dm Gm",
+    "genres": "Pop"
+},
+{
+    "title": "Born Free",
+    "artist": "Kid Rock",
+    "chords": "E A D G B F#m",
+    "genres": "Rock"
+},
+{
+    "title": "Use Somebody",
+    "artist": "Kings of Leon",
+    "chords": "Am C D F F#",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "All I Want",
+    "artist": "Kodaline",
+    "chords": "Am C D Em G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Need You Now",
+    "artist": "Lady Antebellum",
+    "chords": "Am C Em F G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Born This Way",
+    "artist": "Lady Gaga",
+    "chords": "A D E",
+    "genres": "Pop"
+},
+{
+    "title": "Poker Face",
+    "artist": "Lady Gaga",
+    "chords": "C D Em G",
+    "genres": "Pop"
+},
+{
+    "title": "Whole Lotta Love",
+    "artist": "Led Zeppelin",
+    "chords": "D E A",
+    "genres": "Classic Rock"
+},
+{
+    "title": "I Can�t Quit You Baby",
+    "artist": "Led Zeppelin",
+    "chords": "D9 A E Bb",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Bleeding Love",
+    "artist": "Leona Lewis",
+    "chords": "A# C Dm F",
+    "genres": "Pop"
+},
+{
+    "title": "Hallelujah",
+    "artist": "Leonard Cohen",
+    "chords": "G Em C D B7",
+    "genres": "Alternative"
+},
+{
+    "title": "Someone You Loved",
+    "artist": "Lewis Capaldi",
+    "chords": "Am C Dm F G",
+    "genres": "Pop"
+},
+{
+    "title": "Rumble",
+    "artist": "Link Wray",
+    "chords": "D E A B7",
+    "genres": "Country"
+},
+{
+    "title": "Bleed It Out",
+    "artist": "Linkin Park",
+    "chords": "F# E B",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "In The End",
+    "artist": "Linkin Park",
+    "chords": "Em D C",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "What I've Done",
+    "artist": "Linkin Park",
+    "chords": "A C D Em G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Royals",
+    "artist": "Lorde",
+    "chords": "G C D",
+    "genres": "Pop"
+},
+{
+    "title": "Walk On The Wild Side",
+    "artist": "Lou Reed",
+    "chords": "C F D",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Sweet Home Alabama",
+    "artist": "Lynyrd Skynyrd",
+    "chords": "D Cadd9 G F C",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Simple Man",
+    "artist": "Lynyrd Skynyrd",
+    "chords": "C G Am",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Free Bird",
+    "artist": "Lynyrd Skynyrd",
+    "chords": "G D Em F C",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Uptown Funk",
+    "artist": "Mark Ronson",
+    "chords": "Dm F G",
+    "genres": "Pop"
+},
+{
+    "title": "She Will Be Loved",
+    "artist": "Maroon 5",
+    "chords": "A D G Bm",
+    "genres": "Pop"
+},
+{
+    "title": "Animals",
+    "artist": "Maroon 5",
+    "chords": "C D Em",
+    "genres": "Pop"
+},
+{
+    "title": "Family Affair",
+    "artist": "Mary J Blige",
+    "chords": "Am Em",
+    "genres": "Pop"
+},
+{
+    "title": "Unwell",
+    "artist": "Matchbox 20",
+    "chords": "G Cadd9 Em D",
+    "genres": "Pop"
+},
+{
+    "title": "Fade Into You",
+    "artist": "Mazzy Star",
+    "chords": "Am C D G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Like I�m Gonna Lose You",
+    "artist": "Meghan Trainor",
+    "chords": "C Em Am F Dm G E",
+    "genres": "Pop"
+},
+{
+    "title": "Beat It",
+    "artist": "Michael Jackson",
+    "chords": "Em D C",
+    "genres": "Pop"
+},
+{
+    "title": "I Will Wait",
+    "artist": "Mumford and Sons",
+    "chords": "Am C Em F G",
+    "genres": "Rock, Folk"
+},
+{
+    "title": "The Cave",
+    "artist": "Mumford and Sons",
+    "chords": "Am C F G",
+    "genres": "Rock, Folk"
+},
+{
+    "title": "Teenagers",
+    "artist": "My Chemical Romance",
+    "chords": "A B E",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Sweet Caroline",
+    "artist": "Neil Diamond",
+    "chords": "A D E",
+    "genres": "Rock, Country"
+},
+{
+    "title": "Heart Of Gold",
+    "artist": "Neil Young",
+    "chords": "Em7 D Em C G",
+    "genres": "Country"
+},
+{
+    "title": "Closer",
+    "artist": "Ne-Yo",
+    "chords": "C Em",
+    "genres": "Pop"
+},
+{
+    "title": "Rockstar",
+    "artist": "Nickelback",
+    "chords": "G C F Bb Eb",
+    "genres": "Rock"
+},
+{
+    "title": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "chords": "E A G C",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Something In The Way",
+    "artist": "Nirvana",
+    "chords": "Em C G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "All Apologies",
+    "artist": "Nirvana",
+    "chords": "C F G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Songbird",
+    "artist": "Oasis",
+    "chords": "G D Em",
+    "genres": "Britpop"
+},
+{
+    "title": "Wonderwall",
+    "artist": "Oasis",
+    "chords": "Em G D A C",
+    "genres": "Britpop"
+},
+{
+    "title": "How Bizarre",
+    "artist": "OMC",
+    "chords": "C G F",
+    "genres": "Rock"
+},
+{
+    "title": "What Makes You Beautiful",
+    "artist": "One Direction",
+    "chords": "E A B",
+    "genres": "Pop"
+},
+{
+    "title": "Little Things",
+    "artist": "One Direction",
+    "chords": "Am C D Em G",
+    "genres": "Pop"
+},
+{
+    "title": "Counting Stars",
+    "artist": "One Republic",
+    "chords": "Am C G F",
+    "genres": "Pop"
+},
+{
+    "title": "Apologize",
+    "artist": "One Republic",
+    "chords": "Am C F G",
+    "genres": "Pop"
+},
+{
+    "title": "Counting Stars",
+    "artist": "OneRepublic",
+    "chords": "Am C G F",
+    "genres": "Pop"
+},
+{
+    "title": "Sittin' On the Dock of the Bay",
+    "artist": "Otis Redding",
+    "chords": "G B7 C A E F",
+    "genres": "Pop"
+},
+{
+    "title": "Hey Ya",
+    "artist": "Outkast",
+    "chords": "C D Em G",
+    "genres": "Pop"
+},
+{
+    "title": "Crazy Train",
+    "artist": "Ozzy Osbourne",
+    "chords": "A Bm D E F#m",
+    "genres": "Metal"
+},
+{
+    "title": "New Shoes",
+    "artist": "Paolo Nutini",
+    "chords": "A C D E G",
+    "genres": "Pop"
+},
+{
+    "title": "Last Resort",
+    "artist": "Papa Roach",
+    "chords": "Bm C D Em G",
+    "genres": "Metal"
+},
+{
+    "title": "The Only Exception",
+    "artist": "Paramore",
+    "chords": "Am C D Dm G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Misery Business",
+    "artist": "Paramore",
+    "chords": "C D Em G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Ain't It Fun",
+    "artist": "Paramore",
+    "chords": "Am C F G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Black",
+    "artist": "Pearl Jam",
+    "chords": "A C D E Em",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Puff the Magic Dragon",
+    "artist": "Peter Paul and Mary",
+    "chords": "G D C A",
+    "genres": "Pop"
+},
+{
+    "title": "In The Air Tonight",
+    "artist": "Phil Collins",
+    "chords": "Am G F",
+    "genres": "Pop"
+},
+{
+    "title": "Try",
+    "artist": "Pink",
+    "chords": "Am C F G",
+    "genres": "Pop"
+},
+{
+    "title": "Wish You Were Here",
+    "artist": "Pink Floyd",
+    "chords": "Em G A C D",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Where Is My Mind",
+    "artist": "Pixies",
+    "chords": "A C# E F#",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Hey There Delilah",
+    "artist": "Plain White T's",
+    "chords": "C Em Am G F",
+    "genres": "Pop"
+},
+{
+    "title": "Every Rose Has Its Thorn",
+    "artist": "Poison",
+    "chords": "C D Em G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "A Satisfied Mind",
+    "artist": "Porter Wagoner",
+    "chords": "G C D",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "She Hates Me",
+    "artist": "Puddle of Mudd",
+    "chords": "A D E G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Common People",
+    "artist": "Pulp",
+    "chords": "A D E",
+    "genres": "Britpop"
+},
+{
+    "title": "Common People",
+    "artist": "Pulp",
+    "chords": "C F G",
+    "genres": "Britpop"
+},
+{
+    "title": "Crazy Little Thing Called Love",
+    "artist": "Queen",
+    "chords": "D G C Bb E A F",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "chords": "G Em Am D C",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Creep",
+    "artist": "Radiohead",
+    "chords": "G B C Cm",
+    "genres": "Alternative"
+},
+{
+    "title": "High And Dry",
+    "artist": "Radiohead",
+    "chords": "D Em G",
+    "genres": "Alternative"
+},
+{
+    "title": "Sleep Now In The Fire",
+    "artist": "Rage Against The Machine",
+    "chords": "D A Fm",
+    "genres": "Metal"
+},
+{
+    "title": "America",
+    "artist": "Razorlight",
+    "chords": "A D Em G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Otherside",
+    "artist": "Red Hot Chili Peppers",
+    "chords": "Am C Em F G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Snow",
+    "artist": "Red Hot Chili Peppers",
+    "chords": "Am C D Em G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Don't Forget Me",
+    "artist": "Red Hot Chili Peppers",
+    "chords": "Am C F G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Man On The Moon",
+    "artist": "REM",
+    "chords": "Am C D Em G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Love The Way You Lie",
+    "artist": "Rihanna",
+    "chords": "C D Em G",
+    "genres": "Pop"
+},
+{
+    "title": "Diamonds",
+    "artist": "Rihanna",
+    "chords": "A Bm G",
+    "genres": "Pop"
+},
+{
+    "title": "La Bamba",
+    "artist": "Ritchie Valens",
+    "chords": "C F G",
+    "genres": "Pop"
+},
+{
+    "title": "Bad Case of Loving You",
+    "artist": "Robert Palmer",
+    "chords": "A B D E",
+    "genres": "Pop"
+},
+{
+    "title": "Hot Legs",
+    "artist": "Rod Stewart",
+    "chords": "C D E G",
+    "genres": "Pop"
+},
+{
+    "title": "Maggie May",
+    "artist": "Rod Stewart",
+    "chords": "A D Em F#m G",
+    "genres": "Pop"
+},
+{
+    "title": "King of the Road",
+    "artist": "Roger Miller",
+    "chords": "D G A",
+    "genres": "Country"
+},
+{
+    "title": "Stay With Me",
+    "artist": "Sam Smith",
+    "chords": "Am7 F C Gsus Am G G#",
+    "genres": "Pop"
+},
+{
+    "title": "Evil Ways",
+    "artist": "Santana",
+    "chords": "C D Gm",
+    "genres": "Soul"
+},
+{
+    "title": "Truly Madly Deeply",
+    "artist": "Savage Garden",
+    "chords": "C F G",
+    "genres": "Rock"
+},
+{
+    "title": "Closing Time",
+    "artist": "Semisonic",
+    "chords": "A# Am C D G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Stitches",
+    "artist": "Shawn Mendes",
+    "chords": "Am G C F",
+    "genres": "Pop"
+},
+{
+    "title": "Treat You Better",
+    "artist": "Shawn Mendes",
+    "chords": "Am C F G",
+    "genres": "Pop"
+},
+{
+    "title": "The First Cut Is the Deepest",
+    "artist": "Sheryl Crow",
+    "chords": "A D E G",
+    "genres": "Pop"
+},
+{
+    "title": "The Sound Of Silence",
+    "artist": "Simon and Garfunkel",
+    "chords": "A# C Dm F",
+    "genres": "Folk"
+},
+{
+    "title": "All Star",
+    "artist": "Smash Mouth",
+    "chords": "A C D Em G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Cherub Rock",
+    "artist": "Smashing Pumpkins",
+    "chords": "D A E C G C",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Tracks of My Tears",
+    "artist": "Smokey Robinson",
+    "chords": "G C D Em",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Chasing Cars",
+    "artist": "Snow Patrol",
+    "chords": "A D E",
+    "genres": "Rock"
+},
+{
+    "title": "Run",
+    "artist": "Snow Patrol",
+    "chords": "Am C F G",
+    "genres": "Rock"
+},
+{
+    "title": "Runaway Train",
+    "artist": "Soul Asylum",
+    "chords": "Am C Em F G",
+    "genres": "Soul"
+},
+{
+    "title": "Edelweiss",
+    "artist": "Sound of Music",
+    "chords": "G D C Em Am",
+    "genres": "Pop"
+},
+{
+    "title": "Two Princes",
+    "artist": "Spin Doctors",
+    "chords": "A Bm D G",
+    "genres": "Rock"
+},
+{
+    "title": "Outside",
+    "artist": "Staind",
+    "chords": "A D E Em G",
+    "genres": "Rock"
+},
+{
+    "title": "Stuck In The Middle With You",
+    "artist": "Stealers Wheel",
+    "chords": "A C D G",
+    "genres": "Rock"
+},
+{
+    "title": "Maybe Tomorrow",
+    "artist": "Stereophonics",
+    "chords": "Am B C D Em",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "It Means Nothing",
+    "artist": "Stereophonics",
+    "chords": "C Em G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "The Joker",
+    "artist": "Steve Miller Band",
+    "chords": "G Cadd9 Dsus4",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Englishman In New York",
+    "artist": "Sting",
+    "chords": "Em A Bm D F# G A",
+    "genres": "Rock"
+},
+{
+    "title": "What I Got",
+    "artist": "Sublime",
+    "chords": "D G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Get It On",
+    "artist": "T. Rex",
+    "chords": "E A G",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Dynamite",
+    "artist": "Taio Cruz",
+    "chords": "Am C Em F G",
+    "genres": "Pop"
+},
+{
+    "title": "Love Story",
+    "artist": "Taylor Swift",
+    "chords": "C G Am F D A Bm",
+    "genres": "Pop"
+},
+{
+    "title": "Shake If Off",
+    "artist": "Taylor Swift",
+    "chords": "Am C G",
+    "genres": "Pop"
+},
+{
+    "title": "We Are Never Ever Getting Back Together",
+    "artist": "Taylor Swift",
+    "chords": "C D Em G",
+    "genres": "Pop"
+},
+{
+    "title": "You Belong With Me",
+    "artist": "Taylor Swift",
+    "chords": "A. D. Em G",
+    "genres": "Pop"
+},
+{
+    "title": "Everybody Wants To Rule The World",
+    "artist": "Tears For Fears",
+    "chords": "A D Em F#m G",
+    "genres": "Pop"
+},
+{
+    "title": "House of the Rising Sun",
+    "artist": "The Animals",
+    "chords": "Am C D F E",
+    "genres": "Classic Rock"
+},
+{
+    "title": "The Weight",
+    "artist": "The Band",
+    "chords": "G Bm C D",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Walk Like An Egyptian",
+    "artist": "The Bangles",
+    "chords": "B D E",
+    "genres": "Rock"
+},
+{
+    "title": "Surfin' USA",
+    "artist": "The Beach Boys",
+    "chords": "D# A# G#",
+    "genres": "Pop"
+},
+{
+    "title": "Let It Be",
+    "artist": "The Beatles",
+    "chords": "C G Am F7 F6 F E Dm7",
+    "genres": "Pop"
+},
+{
+    "title": "Love Me Do",
+    "artist": "The Beatles",
+    "chords": "G C D",
+    "genres": "Pop"
+},
+{
+    "title": "Let It Be",
+    "artist": "The Beatles",
+    "chords": "C G Am F",
+    "genres": "Pop"
+},
+{
+    "title": "Rocky Raccoon",
+    "artist": "The Beatles",
+    "chords": "Am7 D7 G7 C",
+    "genres": "Pop"
+},
+{
+    "title": "Here Comes the Sun",
+    "artist": "The Beatles",
+    "chords": "D G A7 F C E",
+    "genres": "Pop"
+},
+{
+    "title": "Hey Jude",
+    "artist": "The Beatles",
+    "chords": "D A A7 G C",
+    "genres": "Pop"
+},
+{
+    "title": "Let It Be",
+    "artist": "The Beatles",
+    "chords": "C G Am F",
+    "genres": "Pop"
+},
+{
+    "title": "Rocky Raccoon",
+    "artist": "The Beatles",
+    "chords": "Am7 D7 G7 C",
+    "genres": "Pop"
+},
+{
+    "title": "Eleanor Rigby",
+    "artist": "The Beatles",
+    "chords": "C Em",
+    "genres": "Pop"
+},
+{
+    "title": "Paperback Writer",
+    "artist": "The Beatles",
+    "chords": "C G",
+    "genres": "Pop"
+},
+{
+    "title": "Get Back",
+    "artist": "The Beatles",
+    "chords": "A D G",
+    "genres": "Pop"
+},
+{
+    "title": "I Gotta Feelin",
+    "artist": "The Black Eyed Peas",
+    "chords": "C Em G",
+    "genres": "Pop"
+},
+{
+    "title": "Lonely Boy",
+    "artist": "The Black Keys",
+    "chords": "A E G",
+    "genres": "Rock"
+},
+{
+    "title": "Wherever You Will Go",
+    "artist": "The Calling",
+    "chords": "A Bm D F#m G",
+    "genres": "Rock"
+},
+{
+    "title": "Guns Of Brixton",
+    "artist": "The Clash",
+    "chords": "F#m Bm G",
+    "genres": "Punk"
+},
+{
+    "title": "Should I Stay Or Should I Go",
+    "artist": "The Clash",
+    "chords": "A D F G",
+    "genres": "Punk"
+},
+{
+    "title": "Zombie",
+    "artist": "The Cranberries",
+    "chords": "C D Em G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Just My Imagination",
+    "artist": "The Cranberries",
+    "chords": "Am D Em G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "People Are Strange",
+    "artist": "The Doors",
+    "chords": "Em Am B7 G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "How To Save A Life",
+    "artist": "The Fray",
+    "chords": "C D Em G",
+    "genres": "Pop"
+},
+{
+    "title": "Mr Brightside",
+    "artist": "The Killers",
+    "chords": "Am C Em F G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Louie Louie",
+    "artist": "The Kingsmen",
+    "chords": "A D Em",
+    "genres": "Soul"
+},
+{
+    "title": "Ho Hey",
+    "artist": "The Lumineers",
+    "chords": "Am C F G",
+    "genres": "Folk"
+},
+{
+    "title": "Dance The Night Away",
+    "artist": "The Mavericks",
+    "chords": "B7 E A D G B",
+    "genres": "Rock"
+},
+{
+    "title": "Sweater Weather",
+    "artist": "The Neighbourhood",
+    "chords": "Am C D Em G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "I'm Gonna Be (500 Miles)",
+    "artist": "The Proclaimers",
+    "chords": "D G A",
+    "genres": "Pop"
+},
+{
+    "title": "Blitzkrieg Bop",
+    "artist": "The Ramones",
+    "chords": "G C D Am",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Miss You",
+    "artist": "The Rolling Stones",
+    "chords": "Am F D5 Em Dm E",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Satisfaction (I Can't Get No)",
+    "artist": "The Rolling Stones",
+    "chords": "E A B7 D",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Angie",
+    "artist": "The Rolling Stones",
+    "chords": "Am E7 G C",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Jumpin' Jack Flash",
+    "artist": "The Rolling Stones",
+    "chords": "E G D A",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Paint It Black",
+    "artist": "The Rolling Stones",
+    "chords": "Dm A C F G",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Satisfaction (I Can't Get No)",
+    "artist": "The Rolling Stones",
+    "chords": "E A B7 D",
+    "genres": "Classic Rock"
+},
+{
+    "title": "You Can't Always Get What You Want",
+    "artist": "The Rolling Stones",
+    "chords": "C F D",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Honky Tonk Woman",
+    "artist": "The Rolling Stones",
+    "chords": "A C D G",
+    "genres": "Classic Rock"
+},
+{
+    "title": "The Last Time",
+    "artist": "The Rolling Stones",
+    "chords": "A D E",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Wipe Out",
+    "artist": "The Safaris",
+    "chords": "C F G",
+    "genres": "Classic Rock"
+},
+{
+    "title": "The Man Who Can't Be Moved",
+    "artist": "The Script",
+    "chords": "Am C D Em G",
+    "genres": "Pop"
+},
+{
+    "title": "There Is A Light That Never Goes Out",
+    "artist": "The Smiths",
+    "chords": "Am C Dm F G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "The Lion Sleeps Tonight",
+    "artist": "The Tokens",
+    "chords": "D G A",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Wild Thing",
+    "artist": "The Troggs",
+    "chords": "A D E G",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Bitter Sweet Symphony",
+    "artist": "The Verve",
+    "chords": "A Bm D E",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "chords": "Am C Dm G",
+    "genres": "Pop"
+},
+{
+    "title": "Little Ghost",
+    "artist": "The White Stripes",
+    "chords": "G C D",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Fell In Love With A Girl",
+    "artist": "The White Stripes",
+    "chords": "A B D E F#",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Seven Nation Army",
+    "artist": "The White Stripes",
+    "chords": "E G D C B A",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "I Can�t Explain",
+    "artist": "The Who",
+    "chords": "A G D E F#m",
+    "genres": "Classic Rock"
+},
+{
+    "title": "Baba O' Riley",
+    "artist": "The Who",
+    "chords": "F C Bb",
+    "genres": "Classic Rock"
+},
+{
+    "title": "It's Not Unusual",
+    "artist": "Tom Jones",
+    "chords": "C D# Dm Em G",
+    "genres": "Pop"
+},
+{
+    "title": "I Won't Back Down",
+    "artist": "Tom Petty",
+    "chords": "Em D G C",
+    "genres": "Country"
+},
+{
+    "title": "Free Falling",
+    "artist": "Tom Petty",
+    "chords": "D Dsus4 Asus4",
+    "genres": "Country"
+},
+{
+    "title": "I Won't Back Down",
+    "artist": "Tom Petty",
+    "chords": "Em D G C",
+    "genres": "Country"
+},
+{
+    "title": "Fast Car",
+    "artist": "Tracy Chapman",
+    "chords": "C G Em D",
+    "genres": "Pop"
+},
+{
+    "title": "Hey Soul Sister",
+    "artist": "Train",
+    "chords": "Am C F G",
+    "genres": "Soul"
+},
+{
+    "title": "Sunday Bloody Sunday",
+    "artist": "U2",
+    "chords": "Bm D G6 Em F",
+    "genres": "Rock"
+},
+{
+    "title": "Desire",
+    "artist": "U2",
+    "chords": "Dsus2 A E",
+    "genres": "Rock"
+},
+{
+    "title": "I Still Haven't Found What I'm Looking For",
+    "artist": "U2",
+    "chords": "A D E",
+    "genres": "Rock"
+},
+{
+    "title": "With Or Without You",
+    "artist": "U2",
+    "chords": "Am C F G",
+    "genres": "Rock"
+},
+{
+    "title": "One",
+    "artist": "U2",
+    "chords": "Am C D F G",
+    "genres": "Rock"
+},
+{
+    "title": "Red Red Wine",
+    "artist": "UB40",
+    "chords": "A D E",
+    "genres": "Soul"
+},
+{
+    "title": "Lady In Black",
+    "artist": "Uriah Heep",
+    "chords": "Am G",
+    "genres": "Rock"
+},
+{
+    "title": "Brown Eyed Girl",
+    "artist": "Van Morrison",
+    "chords": "G C D Em D7",
+    "genres": "Pop"
+},
+{
+    "title": "Have I Told You Lately",
+    "artist": "Van Morrison",
+    "chords": "C Em F G",
+    "genres": "Pop"
+},
+{
+    "title": "Riptide",
+    "artist": "Vance Joy",
+    "chords": "Am G C",
+    "genres": "Pop"
+},
+{
+    "title": "YMCA",
+    "artist": "Village People",
+    "chords": "Am C D Em G",
+    "genres": "Pop"
+},
+{
+    "title": "Island in the Sun",
+    "artist": "Weezer",
+    "chords": "Em Am D G C",
+    "genres": "Alternative, Rock"
+},
+{
+    "title": "Here I Go Again",
+    "artist": "Whitesnake",
+    "chords": "Am C D Em G",
+    "genres": "Classic Rock"
+},
+{
+    "title": "On the Road Again",
+    "artist": "Willie Nelson",
+    "chords": "E G# F#m A B",
+    "genres": "Country"
+},
+{
+    "title": "Blue Eyes Crying in the Rain",
+    "artist": "Willie Nelson",
+    "chords": "E A A# B F F# G# B7",
+    "genres": "Country"
+},
+{
+    "title": "See You Again",
+    "artist": "Wiz Khalifa",
+    "chords": "C D Em G",
+    "genres": "Pop"
+    },
+    {
+    "title": "Chicken Fried",
+    "artist": "Zac Brown Band",
+    "chords": "D G Gsus C",
+    "genres": "Country"
+    }
+]
