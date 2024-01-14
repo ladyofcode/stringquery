@@ -1,4 +1,5 @@
 <script>
+	import { onMount } from 'svelte';
 	import { get, writable } from 'svelte/store';
 	import { browser } from '$app/environment';
 
@@ -43,6 +44,18 @@
 	export let storedChords = persisted('storedChords', chordSelection);
 	export let storedGenres = persisted('storedGenres', genreSelection);
 
+	console.log('onload chordSel: ', chordSelection);
+	console.log('onload storedC', $storedChords);
+
+	onMount(() => {
+		genreSelection = $storedGenres;
+		chordSelection = $storedChords;
+		
+
+		console.log('onload chordSel: ', chordSelection);
+		console.log('onload storedC', $storedChords);
+	});
+
 	function storeGenres(event) {
 		let isInArray = genreSelection.includes(event.target.value);
 
@@ -55,8 +68,6 @@
 				return value !== event.target.value;
 			});
 		}
-
-		// console.log(genreSelection);
 	}
 
 	function saveForm(event) {
@@ -116,20 +127,21 @@
 
 	function parseData(data) {
 		chordSelection = [];
-		value = [];
 		genreSelection = [];
 		data.shift();
 
 		data.forEach((item) => {
 			if (item[0] !== '') {
-				value.push(JSON.parse(item[0]));
-				genreSelection.push(JSON.parse(item[0]));
+				chordSelection.push(JSON.parse(item[0]));
 			}
 
 			if (item[1] !== '') {
 				genreSelection.push(item[1]);
 			}
 		});
+
+		$storedChords = chordSelection;
+		$storedGenres = genreSelection;
 	}
 </script>
 
@@ -150,8 +162,8 @@
 			<Svelecte
 				{options}
 				name="chords"
-				bind:readSelection={chordSelection}
-				valueAsObject
+				bind:value={$storedChords}
+				on:change={() => chordSelection = $storedChords}
 				multiple
 				{dndzone}
 				placeholder="Add chords..."
@@ -193,10 +205,11 @@
 		text-align: center;
 		font-size: 4rem;
 	}
-	
-	h1, label, legend {
-		color: var(--color-text-light);
 
+	h1,
+	label,
+	legend {
+		color: var(--color-text-light);
 	}
 
 	fieldset {
@@ -238,5 +251,4 @@
 	button:hover {
 		border-color: var(--color-fg-light);
 	}
-
 </style>

@@ -1,9 +1,11 @@
 <script>
-	// export let filteredChords;
+	export let filteredChords;
 
 	import songs from './songs.json';
 
 	import Song from '$lib/Song/Song.svelte';
+
+	console.log("search results filteredchords: ", filteredChords);
 
 	// const chordList = filteredChords.map((chord) => chord.value);
 
