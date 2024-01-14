@@ -9,7 +9,6 @@
 
 	// const chordList = filteredChords.map((chord) => chord.value);
 
-	// console.log("chords ", chordList)
 </script>
 
 <div class="glass">

@@ -1,15 +1,9 @@
 <script>
 	import { onMount } from 'svelte';
-	import { get, writable } from 'svelte/store';
-	import { browser } from '$app/environment';
 
 	import { persisted } from 'svelte-persisted-store';
 
-	import {
-		dndzone,
-		overrideItemIdKeyNameBeforeInitialisingDndZones,
-		setDebugMode
-	} from 'svelte-dnd-action';
+	import { dndzone, overrideItemIdKeyNameBeforeInitialisingDndZones } from 'svelte-dnd-action';
 	import Svelecte from 'svelecte';
 	import Papa from 'papaparse';
 
@@ -19,10 +13,11 @@
 	import options from '$lib/chords.js';
 
 	overrideItemIdKeyNameBeforeInitialisingDndZones('value');
-	// setDebugMode(true);
 
-	let value;
 	let chordSelection = [null];
+	let genreSelection = [];
+	export let storedChords = persisted('storedChords', chordSelection);
+	export let storedGenres = persisted('storedGenres', genreSelection);
 
 	const genres = [
 		'rock',
@@ -39,22 +34,14 @@
 		'britpop'
 	];
 
-	let genreSelection = [];
-
-	export let storedChords = persisted('storedChords', chordSelection);
-	export let storedGenres = persisted('storedGenres', genreSelection);
-
-	console.log('onload chordSel: ', chordSelection);
-	console.log('onload storedC', $storedChords);
-
 	onMount(() => {
 		genreSelection = $storedGenres;
 		chordSelection = $storedChords;
-		
-
-		console.log('onload chordSel: ', chordSelection);
-		console.log('onload storedC', $storedChords);
 	});
+
+	function storeChords() {
+		chordSelection = $storedChords;
+	}
 
 	function storeGenres(event) {
 		let isInArray = genreSelection.includes(event.target.value);
@@ -163,7 +150,7 @@
 				{options}
 				name="chords"
 				bind:value={$storedChords}
-				on:change={() => chordSelection = $storedChords}
+				on:change={storeChords}
 				multiple
 				{dndzone}
 				placeholder="Add chords..."
@@ -190,7 +177,7 @@
 	</div>
 
 	{#key chordSelection}
-		<SearchResults filteredChords={chordSelection} />
+		<SearchResults filteredChords={chordSelection} filteredGenres={genreSelection} />
 	{/key}
 </main>
 

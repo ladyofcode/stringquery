@@ -1,9 +1,5 @@
 export default [
     {
-        "value": "G",
-        "text": "G"
-    },
-    {
         "value": "Am",
         "text": "Am"
     },
