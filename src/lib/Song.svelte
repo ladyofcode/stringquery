@@ -31,7 +31,7 @@
 			<p>by {artist}</p>
 		</div>
 		<div class="buttons">
-			<a href={youtubeLink}>
+			<a href={youtubeLink} target="_blank">
 				<button> <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg" viewBox="50 50 200 200" xml:space="preserve">
 					<g transform="scale(.75)">
 						<path fill="transparent" d="M0 0h400v400H0z"/>
@@ -39,7 +39,7 @@
 					</g>
 					<script xmlns=""/></svg>Tutorials</button>
 			</a>
-			<a href={tabsLink}>
+			<a href={tabsLink} target="_blank">
 			<button> <svg width="40" height="100"  viewBox="-20 -30 280 280" fill="#ebebdf" version="1.1" xmlns="http://www.w3.org/2000/svg">
 				<path d="m192.19 94.85c0.265 2.84 0.19 6.97 0.19 9.875 0.125 52.51-42.85 95.16-95.975 95.275-53.12 0.115-96.29-42.35-96.405-94.85a94.47 94.47 0 0 1 28.535-67.775l-9.735-9.225v-28.15l25.73 24.79a97.31 97.31 0 0 1 103.95 0.395l26.51-25.185v28.155l-10.615 9.745a94.5 94.5 0 0 1 23.58 38.37h-21.53c-15.915-38.21-60.155-56.42-98.815-40.695-38.665 15.74-57.095 59.46-41.17 97.675 15.915 38.2 60.16 56.42 98.82 40.68 24.575-10 42.045-32 46.02-57.98h-63.26l-20.075-21.1z" stroke-width="5"/>
 				<script xmlns=""/></svg>Tabs</button>
