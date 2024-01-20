@@ -3,7 +3,7 @@
 
 	import songs from './songs.json';
 
-	import Song from '$lib/Song/Song.svelte';
+	import Song from '$lib/Song.svelte';
 
 	console.log("search results filteredchords: ", filteredChords);
 
