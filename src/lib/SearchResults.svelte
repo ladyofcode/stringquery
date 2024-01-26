@@ -1,25 +1,65 @@
 <script>
-	export let filteredChords;
+	export let filteredChords, filteredGenres;
 
 	import songs from './songs.json';
 
 	import Song from '$lib/Song.svelte';
+	import { createSearchStore, searchHandler } from './stores/searchResults';
+	import { onDestroy } from 'svelte';
 
-	console.log("search results filteredchords: ", filteredChords);
+	function checkChords(chords) {
+		if (filteredChords.length === 0) {
+			return true;
+		}
+		let chordsArray = chords.split(',');
 
-	// const chordList = filteredChords.map((chord) => chord.value);
+		return chordsArray.some((item) => filteredChords.includes(item));
+	}
 
+	function checkGenres(genres) {
+		if (filteredGenres.length === 0) {
+			return true;
+		}
+
+		let genresArray = genres.split(', ');
+		genresArray = genresArray.map((item) => item.toLowerCase());
+
+		return genresArray.some((item) => filteredGenres.includes(item));
+	}
+
+	const searchSongs = songs.map((song) => ({
+		...song,
+		searchTerms: `${song.title} ${song.artist}`
+	}));
+
+	const searchStore = createSearchStore(searchSongs);
+
+	const unsubscribe = searchStore.subscribe((model) => searchHandler(model));
+
+	onDestroy(() => {
+		unsubscribe();
+	});
 </script>
 
 <div class="glass">
 	<form action="">
-		<input type="search" id="song-search" name="song-search" placeholder="Search songs..." />
+		<input
+			type="search"
+			id="song-search"
+			name="song-search"
+			placeholder="Search songs..."
+			bind:value={$searchStore.search}
+		/>
 	</form>
 </div>
 
 <div>
-	{#each songs as { title, artist, chords }}
-		<Song {title} {artist} songId="5ofoB8PFmocBXFBEWVb6Vz" chords="F,Bb,F_maj7" />
+	{#each $searchStore.filtered as { title, artist, chords, genres, id }}
+		{#if checkChords(chords)}
+			{#if checkGenres(genres)}
+				<Song {title} {artist} songId={id} chords={chords} />
+			{/if}
+		{/if}
 	{/each}
 </div>
 

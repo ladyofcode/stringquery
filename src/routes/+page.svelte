@@ -15,7 +15,7 @@
 	overrideItemIdKeyNameBeforeInitialisingDndZones('value');
 
 	let chordSelection = [null];
-	let genreSelection = [];
+	let genreSelection = [null];
 	export let storedChords = persisted('storedChords', chordSelection);
 	export let storedGenres = persisted('storedGenres', genreSelection);
 
@@ -47,7 +47,7 @@
 		let isInArray = genreSelection.includes(event.target.value);
 
 		if (event.target.checked == true && !isInArray) {
-			genreSelection.push(event.target.value);
+			genreSelection = [...genreSelection, event.target.value];
 		}
 
 		if (event.target.checked == false && isInArray) {
@@ -55,6 +55,8 @@
 				return value !== event.target.value;
 			});
 		}
+
+		return;
 	}
 
 	function saveForm(event) {
@@ -176,7 +178,7 @@
 		</form>
 	</div>
 
-	{#key chordSelection}
+	{#key chordSelection || genreSelection}
 		<SearchResults filteredChords={chordSelection} filteredGenres={genreSelection} />
 	{/key}
 </main>

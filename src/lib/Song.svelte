@@ -5,11 +5,7 @@
 
 	let youtubeLink = `https://www.youtube.com/results?search_query=${title.split(' ').join('+')}+${artist.split(' ').join('+')}+guitar+tutorial`;
 
-	console.log(youtubeLink);
-
 	let tabsLink = `https://www.ultimate-guitar.com/search.php?search_type=title&value=${title.split(' ').join('%20')}%20${artist.split(' ').join('%20')}`;
-
-	console.log(tabsLink);
 
 </script>
 
@@ -50,9 +46,9 @@
 
 	<h4>Chords</h4>
 
-	<!-- <div data-width="400" data-height="100" data-no-icon="1" class="uberchord-chords" data-search-by="names" data-search-query={chords}></div> -->
+	<div data-width="400" data-height="100" data-no-icon="1" class="uberchord-chords" data-search-by="names" data-search-query={chords}></div>
 
-	<!-- <Spotify spotifyLink={`track/${songId}`} /> -->
+	<Spotify spotifyLink={`track/${songId}`} />
 
 </div>
 

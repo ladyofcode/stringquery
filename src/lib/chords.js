@@ -1,210 +1,202 @@
 export default [
     {
-        "value": "Am",
+        "value": "A_m_",
         "text": "Am"
     },
     {
-        "value": "C",
+        "value": "C__",
         "text": "C"
     },
     {
-        "value": "A",
+        "value": "A__",
         "text": "A"
     },
     {
-        "value": "D",
+        "value": "D__",
         "text": "D"
     },
     {
-        "value": "E",
+        "value": "E__",
         "text": "E"
     },
     {
-        "value": "Bm",
+        "value": "B_m_",
         "text": "Bm"
     },
     {
-        "value": "Em",
+        "value": "E_m_",
         "text": "Em"
     },
     {
-        "value": "G",
+        "value": "G__",
         "text": "G"
     },
     {
-        "value": "F",
+        "value": "F__",
         "text": "F"
     },
     {
-        "value": "B",
+        "value": "B__",
         "text": "B"
     },
     {
-        "value": "F#",
+        "value": "F#__",
         "text": "F#"
     },
     {
-        "value": "F#m",
+        "value": "F#_m_",
         "text": "F#m"
     },
     {
-        "value": "Bm7",
+        "value": "B_m7_",
         "text": "Bm7"
     },
     {
-        "value": "D6",
+        "value": "D_6_",
         "text": "D6"
     },
     {
-        "value": "Dm",
+        "value": "D_m_",
         "text": "Dm"
     },
     {
-        "value": "A#",
+        "value": "A#__",
         "text": "A#"
     },
     {
-        "value": "Gm",
+        "value": "G_m_",
         "text": "Gm"
     },
     {
-        "value": "BG",
-        "text": "BG"
-    },
-    {
-        "value": "Bb",
+        "value": "Bb__",
         "text": "Bb"
     },
     {
-        "value": "D#m",
+        "value": "D#_m_",
         "text": "D#m"
     },
     {
-        "value": "Cm",
+        "value": "C_m_",
         "text": "Cm"
     },
     {
-        "value": "D#",
+        "value": "D#__",
         "text": "D#"
     },
     {
-        "value": "Eb",
+        "value": "Eb__",
         "text": "Eb"
     },
     {
-        "value": "Dm7",
+        "value": "D_m7_",
         "text": "Dm7"
     },
     {
-        "value": "FAm",
-        "text": "FAm"
-    },
-    {
-        "value": "Cadd9",
+        "value": "C_add9_",
         "text": "Cadd9"
     },
     {
-        "value": "Csus2",
+        "value": "C_sus2_",
         "text": "Csus2"
     },
     {
-        "value": "Em7",
+        "value": "E_m7_",
         "text": "Em7"
     },
     {
-        "value": "Amaj7",
+        "value": "A_maj7_",
         "text": "Amaj7"
     },
     {
-        "value": "B7",
+        "value": "B_7_",
         "text": "B7"
     },
     {
-        "value": "G#",
+        "value": "G#__",
         "text": "G#"
     },
     {
-        "value": "E7",
+        "value": "E_7_",
         "text": "E7"
     },
     {
-        "value": "Dsus4",
+        "value": "D_sus4_",
         "text": "Dsus4"
     },
     {
-        "value": "D7",
+        "value": "D_7_",
         "text": "D7"
     },
     {
-        "value": "G7",
+        "value": "G_7_",
         "text": "G7"
     },
     {
-        "value": "A7",
+        "value": "A_7_",
         "text": "A7"
     },
     {
-        "value": "D#7",
+        "value": "D#_7_",
         "text": "D#7"
     },
     {
-        "value": "Am7",
+        "value": "A_m7_",
         "text": "Am7"
     },
     {
-        "value": "C#",
+        "value": "C#__",
         "text": "C#"
     },
     {
-        "value": "B5",
+        "value": "B_5_",
         "text": "B5"
     },
     {
-        "value": "C7",
+        "value": "C_7_",
         "text": "C7"
     },
     {
-        "value": "C#m",
+        "value": "C#_m_",
         "text": "C#m"
     },
     {
-        "value": "Asus4",
+        "value": "A_sus4_",
         "text": "Asus4"
     },
     {
-        "value": "Esus",
+        "value": "E_sus_",
         "text": "Esus"
     },
     {
-        "value": "D9",
+        "value": "D_9_",
         "text": "D9"
     },
     {
-        "value": "Fm",
+        "value": "F_m_",
         "text": "Fm"
     },
     {
-        "value": "Gsus",
+        "value": "G_sus_",
         "text": "Gsus"
     },
     {
-        "value": "F7",
+        "value": "F_7_",
         "text": "F7"
     },
     {
-        "value": "F6",
+        "value": "F_6_",
         "text": "F6"
     },
     {
-        "value": "D5",
+        "value": "D_5_",
         "text": "D5"
     },
     {
-        "value": "G6",
+        "value": "G_6_",
         "text": "G6"
     },
     {
-        "value": "Dsus2",
+        "value": "D_sus2_",
         "text": "Dsus2"
     }
 ];
