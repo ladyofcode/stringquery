@@ -1,16 +1,142 @@
 [
-    {
-      "title": "What's Up",
-      "artist": "4 Non Blondes",
-      "chords": "G__,A_m_,C__",
-      "genres": "Pop",
-      "id": "0jWgAnTrNZmOGmqgvHhZEm"
-    },
-    {
-      "title": "I Have A Dream",
-      "artist": "Abba",
-      "chords": "A__,D__,E__",
-      "genres": "Rock, Pop, Punk, Soul",
-      "id": "1PtJclc46wTk367PlsU6Uj"
-    }
+  {
+    "title": "What's Up",
+    "artist": "4 Non Blondes",
+    "chords": "G__,A_m_,C__",
+    "genres": "Pop",
+    "id": "0jWgAnTrNZmOGmqgvHhZEm"
+  },
+  {
+    "title": "I Have A Dream",
+    "artist": "Abba",
+    "chords": "A__,D__,E__",
+    "genres": "Pop",
+    "id": "1PtJclc46wTk367PlsU6Uj"
+  },
+  {
+    "title": "The Winner Takes It All",
+    "artist": "Abba",
+    "chords": "A__,B_m_,D__,E_m_",
+    "genres": "Pop",
+    "id": "3oEkrIfXfSh9zGnE7eBzSV"
+  },
+  {
+    "title": "T.N.T",
+    "artist": "AC/DC",
+    "chords": "E__,G__,A__",
+    "genres": "Classic Rock",
+    "id": "7LRMbd3LEoV5wZJvXT1Lwb"
+  },
+  {
+    "title": "You Shook Me All Night Long",
+    "artist": "AC/DC",
+    "chords": "G__,C__,D__",
+    "genres": "Classic Rock",
+    "id": "2SiXAy7TuUkycRVbbWDEpo"
+  },
+  {
+    "title": "It's a Long Way to the Top",
+    "artist": "AC/DC",
+    "chords": "A__,G__,D__",
+    "genres": "Classic Rock",
+    "id": "7nemcVsXVFZF01iqpIIo2Y"
+  },
+  {
+    "title": "Back In Black",
+    "artist": "AC/DC",
+    "chords": "E__,D__,A__",
+    "genres": "Classic Rock",
+    "id": "08mG3Y1vljYA6bvDt4Wqkj"
+  },
+  {
+    "title": "Rolling In The Deep",
+    "artist": "Adele",
+    "chords": "A_m_,E__,E_m_,F__,G__",
+    "genres": "Pop",
+    "id": "4OSBTYWVwsQhGLF9NHvIbR"
+  },
+  {
+    "title": "Hello",
+    "artist": "Adele",
+    "chords": "B_m_,C__,D__,E_m_,G__",
+    "genres": "Pop",
+    "id": "1Yk0cQdMLx5RzzFTYwmuld"
+  },
+  {
+    "title": "Ironic",
+    "artist": "Alanis Morissette",
+    "chords": "C__,D__,E_m_,F__,G__",
+    "genres": "Alternative",
+    "id": "29YBihzQOmat0U74k4ukdx"
+  },
+  {
+    "title": "Hand In My Pocket",
+    "artist": "Alanis Morissette",
+    "chords": "C__,D__,F__,G__",
+    "genres": "Alternative",
+    "id": "78kkknD87Eor8RDGY9Gyuv"
+  },
+  {
+    "title": "You Oughta Know",
+    "artist": "Alanis Morissette",
+    "chords": "A__,B__,E__,F#__,,F#_m_",
+    "genres": "Alternative",
+    "id": "17ZAZ24Eyh5fKqQ06u4R3d"
+  },
+  {
+    "title": "Rooster",
+    "artist": "Alice In Chains",
+    "chords": "A__,C__,E__,G__",
+    "genres": "Rock",
+    "id": "0wvIGFIgbyz4JNwQhZgTv2"
+  },
+  {
+    "title": "Fallin'",
+    "artist": "Alicia Keys",
+    "chords": "E_m_,B_m7_",
+    "genres": "Pop",
+    "id": "0KQx6HOpJueiSkztcS0r7D"
+  },
+  {
+    "title": "When You Say Nothing At All",
+    "artist": "Alison Krauss",
+    "chords": "G__,D__,C__",
+    "genres": "Alternative",
+    "id": "6HveTIMynTMzTc5L0TcS20"
+  },
+  {
+    "title": "A Horse With No Name",
+    "artist": "America",
+    "chords": "E_m_,D_6_",
+    "genres": "Rock",
+    "id": "54eZmuggBFJbV7k248bTTt"
+  },
+  {
+    "title": "Best Day of My Life",
+    "artist": "American Authors",
+    "chords": "G__,D__",
+    "genres": "Rock",
+    "id": "5Hroj5K7vLpIG4FNCRIjbP"
+  },
+  {
+    "title": "This Is The Life",
+    "artist": "Amy Macdonald",
+    "chords": "A_m_,C__,E_m_,F__",
+    "genres": "Pop",
+    "id": "2T3jgoAMbBXiMMD8pSc6QL"
+  },
+  {
+    "title": "Valerie",
+    "artist": "Amy Winehouse",
+    "chords": "C__,D_m_,E_m_,F__,G__",
+    "genres": "Soul",
+    "id": "6kopmMZiyLmw7h66uXcXR7"
+  },
+  {
+    "title": "Back to Black",
+    "artist": "Amy Winehouse",
+    "chords": "A__,A#__,,D_m_,F__,G_m_",
+    "genres": "Soul",
+    "id": "3FAclTFfvUuQYnEsptbK8w"
+  }
 ]

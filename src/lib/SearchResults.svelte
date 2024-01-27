@@ -57,7 +57,7 @@
 	{#each $searchStore.filtered as { title, artist, chords, genres, id }}
 		{#if checkChords(chords)}
 			{#if checkGenres(genres)}
-				<Song {title} {artist} songId={id} chords={chords} />
+				<Song {title} {artist} songId={id} {chords} />
 			{/if}
 		{/if}
 	{/each}
