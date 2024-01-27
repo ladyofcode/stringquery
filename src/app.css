@@ -3,11 +3,15 @@
 :root {
     --color-bg-light: #f4eadd;
     --color-fg-dark: #38322f;
-        --color-text-light: #f5f3e7;
+    --color-text-light: #f5f3e7;
+    --font-family: 'Cormorant', Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    html {
+        font-size: 1.125rem;
 }
 
 body {
-    font-family: 'Cormorant', Georgia, 'Times New Roman', Times, serif;
     background-color: var(--color-bg-light);
     background-image: url(lib/bg.jpg);
     color: var(--color-fg-dark);
@@ -15,15 +19,20 @@ body {
 }
 
 body,
-button {
-    font-family: 'Cormorant', Georgia, 'Times New Roman', Times, serif;
+button,
+h1,
+h2,
+h3 {
+    font-family: var(--font-family);
 }
+
 h1,
 h2,
 label,
 p {
     color: var(--color-fg-dark);
 }
+
 .glass {
     padding: 4rem 2rem;
     margin-bottom: 1rem;
